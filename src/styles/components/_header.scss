@@ -1,0 +1,26 @@
+.header__header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__img {
+    margin: 3rem 0;
+}
+
+.header__nav {
+    background-color: $dark-primary;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.header__navLink {
+    font-family: $principal-font;
+    color: $white;
+    font-size: 3rem;
+
+    &:hover {
+        color: $secundary;
+    }
+}

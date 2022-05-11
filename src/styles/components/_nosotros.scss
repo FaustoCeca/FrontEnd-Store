@@ -1,0 +1,12 @@
+
+@media (min-width: 768px) {
+    .nosotros__contenido {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2.5rem;
+    }
+}
+
+.nosotros__img {
+    width: 100%;
+}

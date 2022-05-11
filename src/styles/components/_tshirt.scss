@@ -1,0 +1,48 @@
+
+
+@media (min-width: 780px) {
+    .tshirt__tshirt {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+.tshirt__img {
+    width: 90%;
+}
+
+.tshirt__form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.tshirt__form--section {
+    border: 1rem solid $dark-primary;
+    background-color: $primary;
+    color: $white;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    appearance: none;
+}
+
+.tshirt__form--submit {
+    background-color: $secundary;
+    border: none;
+    font-size: 2rem;
+    padding: 2rem;
+    font-family: $principal-font;
+    transition: background-color .7s ease;
+    transition: font-size .3s ease;
+    transition: border-radius .7s ease;
+    grid-column: 1 / 3;
+
+    &:hover{
+        font-size: 2.4rem;
+        cursor: pointer;
+        background-color: $dark-secundary;
+        border-radius: 1.5rem;
+    }
+}
